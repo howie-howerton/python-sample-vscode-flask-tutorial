@@ -11,13 +11,13 @@ variables:
   azureServiceConnectionId: '42332730-3053-4e81-b40b-bedfab9bce7f'
   
   # Web app name
-  webAppName: 'howie-howerton-test-pipelines'
+  webAppName: 'python-azure-app'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'howie-env-name'
+  environmentName: 'python-azure-app'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
